@@ -11,6 +11,12 @@
 		4A5D004B2956C7D80010B02F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D004A2956C7D80010B02F /* ContentView.swift */; };
 		4A5D004D2956C7D90010B02F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A5D004C2956C7D90010B02F /* Assets.xcassets */; };
 		4A5D00502956C7D90010B02F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A5D004F2956C7D90010B02F /* Preview Assets.xcassets */; };
+		4A5D00572956C7F70010B02F /* BasicV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D00562956C7F70010B02F /* BasicV.swift */; };
+		4A5D00592956CB6E0010B02F /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D00582956CB6E0010B02F /* UserData.swift */; };
+		4A5D005B2956DC140010B02F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D005A2956DC140010B02F /* DetailView.swift */; };
+		4A5D005E2956ECCC0010B02F /* iFriends.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D005C2956ECCC0010B02F /* iFriends.xcdatamodeld */; };
+		4A5D00602956EE900010B02F /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D005F2956EE900010B02F /* DataController.swift */; };
+		4A5D00622956F6800010B02F /* DetailViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D00612956F6800010B02F /* DetailViewList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		4A5D004A2956C7D80010B02F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4A5D004C2956C7D90010B02F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A5D004F2956C7D90010B02F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4A5D00562956C7F70010B02F /* BasicV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicV.swift; sourceTree = "<group>"; };
+		4A5D00582956CB6E0010B02F /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		4A5D005A2956DC140010B02F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		4A5D005D2956ECCC0010B02F /* iFriends.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iFriends.xcdatamodel; sourceTree = "<group>"; };
+		4A5D005F2956EE900010B02F /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		4A5D00612956F6800010B02F /* DetailViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +65,13 @@
 			children = (
 				4A5D00482956C7D80010B02F /* iFriendsApp.swift */,
 				4A5D004A2956C7D80010B02F /* ContentView.swift */,
+				4A5D005A2956DC140010B02F /* DetailView.swift */,
+				4A5D00612956F6800010B02F /* DetailViewList.swift */,
+				4A5D00582956CB6E0010B02F /* UserData.swift */,
+				4A5D005F2956EE900010B02F /* DataController.swift */,
+				4A5D005C2956ECCC0010B02F /* iFriends.xcdatamodeld */,
 				4A5D004C2956C7D90010B02F /* Assets.xcassets */,
+				4A5D00562956C7F70010B02F /* BasicV.swift */,
 				4A5D004E2956C7D90010B02F /* Preview Content */,
 			);
 			path = iFriends;
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A5D00602956EE900010B02F /* DataController.swift in Sources */,
+				4A5D00622956F6800010B02F /* DetailViewList.swift in Sources */,
+				4A5D00572956C7F70010B02F /* BasicV.swift in Sources */,
 				4A5D004B2956C7D80010B02F /* ContentView.swift in Sources */,
+				4A5D00592956CB6E0010B02F /* UserData.swift in Sources */,
+				4A5D005B2956DC140010B02F /* DetailView.swift in Sources */,
 				4A5D00492956C7D80010B02F /* iFriendsApp.swift in Sources */,
+				4A5D005E2956ECCC0010B02F /* iFriends.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +363,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4A5D005C2956ECCC0010B02F /* iFriends.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4A5D005D2956ECCC0010B02F /* iFriends.xcdatamodel */,
+			);
+			currentVersion = 4A5D005D2956ECCC0010B02F /* iFriends.xcdatamodel */;
+			path = iFriends.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4A5D003D2956C7D80010B02F /* Project object */;
 }
